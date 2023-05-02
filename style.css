@@ -1,6 +1,11 @@
 * {
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: rgb(30, 38, 35);
 }
 
 header {
@@ -12,4 +17,42 @@ header h1 {
     padding: 32px;
     margin: auto;
     width: fit-content;
+}
+
+main {
+    color: rgb(210, 235, 225);
+    padding: 60px 0px;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.registros {
+    margin-top: 64px;
+}
+
+.registro {
+    background-color: rgb(35, 113, 81);
+    border-radius: 13px;
+    margin-bottom: 23px;
+    padding: 32px;
+    position: relative;
+}
+
+.registro .valor, .registro .item {
+    display: block;
+}
+
+.registro button {
+    color:rgb(210, 235, 225);
+    background-color: transparent;
+    border: 1px solid rgb(210, 235, 225);
+    border-radius: 7px;
+    padding: 8px;
+    position: absolute;
+    top: 16px;
+    right: 32px;
+}
+
+.registro button:first-of-type {
+    right: 96px;
 }
