@@ -66,3 +66,11 @@ main {
     background-color: rgb(30, 38, 35);
     border-color: rgb(30, 38, 35);
 }
+
+.saida .valor {
+    color: rgb(255, 63, 63);
+}
+
+.entrada .valor {
+    color: greenyellow;
+}
