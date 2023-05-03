@@ -28,6 +28,9 @@ main {
 
 .registros {
     margin-top: 64px;
+    height: 50vh;
+    overflow-y: scroll;
+    padding: 7px;
 }
 
 .registro {
@@ -51,8 +54,15 @@ main {
     position: absolute;
     top: 16px;
     right: 32px;
+    transition: .3s;
+    cursor: pointer;
 }
 
 .registro button:first-of-type {
-    right: 96px;
+    right: 95px;
+}
+
+.registro button:hover {
+    background-color: rgb(30, 38, 35);
+    border-color: rgb(30, 38, 35);
 }
